@@ -1,0 +1,22 @@
+nav {
+  background-color: $colorNegro;
+  height: 150px;
+  h1 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    @include Titulos;
+  }
+
+  img {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

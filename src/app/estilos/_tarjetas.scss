@@ -1,0 +1,37 @@
+$columnas: 3;
+$filas: 3;
+$ancho-tarjeta: 200px;
+$alto-tarjeta: 250px;
+$espaciado: 150px;
+
+.container-tarjetas {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat($columnas, $ancho-tarjeta);
+  grid-template-rows: repeat($filas, $alto-tarjeta);
+  gap: $espaciado;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: $colorBlanco;
+  border: 1px solid $colorMusgo;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+
+  img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+    @include Textos();
+  }
+}

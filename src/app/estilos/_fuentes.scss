@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+@mixin Titulos (){
+  font-family: "Angkor", serif;
+  font-size: 20px;
+  color: $colorMostaza;
+}
+
+@mixin Textos (){
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: $colorRojoOscuro;
+}
+
+@mixin Footer (){
+  font-family: "Angkor", serif;
+  font-size: 20px;
+  color: $colorRojoOscuro;
+}
+
+@mixin Contador (){
+  font-family: "Kavoon", serif;
+  font-size: 40px;
+  color: $colorAzulMedianoche;
+}

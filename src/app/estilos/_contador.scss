@@ -1,0 +1,15 @@
+.container-contador {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    @include Textos;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include Contador;
+  }
+}

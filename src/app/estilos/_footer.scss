@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: $colorMusgo;
+}
+
+.info {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 95px;
+}
+
+.info p {
+  margin: 5px 0;
+  @include Footer;
+}
+
+footer img {
+  margin-top: 50px;
+  margin-right: 150px;
+  max-width: 200px;
+}

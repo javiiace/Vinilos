@@ -1,0 +1,11 @@
+.hero-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+p{
+  margin-top: 200px;
+  text-align: center;
+  @include Textos;
+}
